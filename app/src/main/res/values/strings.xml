@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">AmplitudoAkademija</string>
+    <string name="be_awere">Be awere\nStay healthy</string>
+    <string name="welcome">Welcome to COVIC-19 information portal.</string>
+    <string name="get_started">Get Started</string>
+    <string name="safety_tips">Know safety tips and\nprecautions from\ntop Doctors.</string>
+    <string name="tracker">Tracker</string>
+    <string name="symptoms">Symptoms</string>
+    <string name="country">Country</string>
+    <string name="state">State</string>
+    <string name="city">City</string>
+    <string name="worldwide">Worldwide</string>
+    <string name="confirmed">Confirmed</string>
+    <string name="active">Active</string>
+    <string name="recovered">Recovered</string>
+    <string name="deceased">Deceased</string>
+    <string name="spread_trends">Spread Trends</string>
+</resources>
