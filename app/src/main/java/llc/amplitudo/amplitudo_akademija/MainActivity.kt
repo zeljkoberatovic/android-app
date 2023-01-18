@@ -25,14 +25,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onStart() {
         super.onStart()
-        binding.apply {
-            imageButton2.setOnClickListener {
-                navigateToTrackerActivity()
-            }
-            getStarted.setOnClickListener{
-                navigateToTrackerActivity()
-            }
-        }
+
         //binding.beAware.text = "Anithing"  --mozemo i na ovaj nacin pristupiti
         Timber.d("Activity is starting...")
     }
@@ -63,10 +56,7 @@ class MainActivity : AppCompatActivity() {
     }
 
 
-        private fun navigateToTrackerActivity(){
-            val intent = Intent(this@MainActivity,TrackerActivity::class.java)
-            startActivity(intent)
-        }
+
 
 
 }
