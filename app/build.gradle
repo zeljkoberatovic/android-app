@@ -4,6 +4,9 @@ plugins {
     //dependency injection with Hilt
     id 'kotlin-kapt'
     id 'com.google.dagger.hilt.android'
+    //SafeArgs
+    id 'androidx.navigation.safeargs.kotlin'
+
 
 }
 
